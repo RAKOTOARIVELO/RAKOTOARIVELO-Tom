@@ -1,0 +1,62 @@
+
+#conteneur 
+{
+text-align:right;   /* aligné à droite */
+clear:both; 
+}
+
+#conteneur img
+{display:inline ;
+	}   /* aligné l'image par rapport au texte*/
+
+a{
+display: inline;       /* aligné texte du bloc */
+
+}
+
+#center img        /* pour tous les "img" dans " div id=center" */
+{height:180px; width:600px;
+}
+
+
+#center {
+	text-align:center;
+}
+
+
+#barre input   /* pour tous les "inputs" dans "div id=barre"*/
+
+{height:25px; width:600px;  
+
+}
+
+#footer {
+position: absolute;
+ bottom :0;
+ height:50px;
+ width:100%;  /* occuper toute la largeur */
+}
+
+#boutons {
+
+width:700px;
+}
+
+header 
+{ height:100px;
+
+
+}
+
+#gauche{
+	float:left;   /* float: left; permet de prendre le côté gauche du bloc footer sur la même ligne*/
+}
+#droite {
+	float:right;
+	text-align: right;   
+}
+
+
+
+
+
